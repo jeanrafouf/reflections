@@ -5,6 +5,8 @@ Running the command GIT INIT in the directory creates a hidden « .git » file
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+It is an intermediary workspace where only the tracked files appear. The command line GIT ADD transform the untracked files of the working directory to tracked files in the staging area. Only the tracked files can be « snapshot » as commits for the repository.
+
 How can you use the staging area to make sure you have one commit per logical
 change?
 
